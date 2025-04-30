@@ -7,12 +7,19 @@ namespace POOActivities
     {
         static void Main(string[] args)
         {
-            Duck myDuck2 = new RedHeadDuck("Diogo", 21, "GIGANTE");
-            Console.WriteLine("=== Informações do Pato ===");
+            Duck myDuck = new RedHeadDuck("Diogo", 21);
+            Console.WriteLine("=== Informações do Pato 1 ===");
+            myDuck.Display();
+            myDuck.Swim();
+            ((IQuackable)myDuck).Quack();
+            ((IFlyable)myDuck).Fly();
+
+            RedHeadDuck myDuck2 = new RedHeadDuck("Bernardo", 22);
+            Console.WriteLine("=== Informações do Pato 2 ===");
             myDuck2.Display();
             myDuck2.Swim();
-            ((IQuackable)myDuck2).Quack();
-            ((IFlyable)myDuck2).Fly();
+            myDuck2.Quack();
+            myDuck2.Fly();
         }
     }
 }

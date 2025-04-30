@@ -6,8 +6,8 @@ namespace Patos {
 
         protected string Name {get;set;}
         protected int Age {get;set;}
-        protected string Type {get;set;}
-    
+        protected string? Type {get;set;}
+
         public Duck(string name, int age){
             Name = name;
             Age = age;
@@ -15,6 +15,10 @@ namespace Patos {
 
         public abstract void Swim();
 
-        public abstract void Display();
+        public void Display(){
+            Console.WriteLine($"Nome: {Name}");
+            Console.WriteLine($"Idade: {Age} anos");
+            Console.WriteLine($"Tipo: {Type}");
+        }
     }
 }
