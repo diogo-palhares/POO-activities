@@ -32,8 +32,7 @@ namespace POOActivities
             Console.WriteLine("=== Informações do Pato 4 ===");
             myDuck4.Display();
             myDuck4.Quack();
-
-
+            myDuck4.Swim();
         }
     }
 }

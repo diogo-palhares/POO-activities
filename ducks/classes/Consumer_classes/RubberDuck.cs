@@ -19,5 +19,10 @@ namespace Patos
         {
             Console.WriteLine($"{Name} é um pato de borracha.");
         }
+
+        public override void Swim()
+        {
+            Console.WriteLine($"{Name} continue a nadar.");
+        }
     }
 }
