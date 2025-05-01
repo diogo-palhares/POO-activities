@@ -15,11 +15,6 @@ namespace Patos
             Console.WriteLine($"*{Name} faz um som de brinquedo*");
         }
 
-        public override void Display()
-        {
-            Console.WriteLine($"{Name} é um pato de borracha.");
-        }
-
         public override void Swim()
         {
             Console.WriteLine($"{Name} continue a nadar.");
