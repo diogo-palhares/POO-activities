@@ -27,8 +27,6 @@ namespace POOActivities
             myDuck3.Swim();
             myDuck3.Quack();
             myDuck3.Fly();
-
-
         }
     }
 }
