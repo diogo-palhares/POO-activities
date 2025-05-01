@@ -27,6 +27,13 @@ namespace POOActivities
             myDuck3.Swim();
             myDuck3.Quack();
             myDuck3.Fly();
+
+            RubberDuck myDuck4 = new RubberDuck("Ivo", 21);
+            Console.WriteLine("=== Informações do Pato 4 ===");
+            myDuck4.Display();
+            myDuck4.Quack();
+
+
         }
     }
 }
