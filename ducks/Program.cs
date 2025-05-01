@@ -20,6 +20,15 @@ namespace POOActivities
             myDuck2.Swim();
             myDuck2.Quack();
             myDuck2.Fly();
+
+            MallardDuck myDuck3 = new MallardDuck("Ana Flavia", 29);
+            Console.WriteLine("=== Informações do Pato 3 ===");
+            myDuck3.Display();
+            myDuck3.Swim();
+            myDuck3.Quack();
+            myDuck3.Fly();
+
+
         }
     }
 }
