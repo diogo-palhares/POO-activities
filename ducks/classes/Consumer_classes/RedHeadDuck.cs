@@ -8,7 +8,7 @@ namespace Patos
         public RedHeadDuck(string name, int age)
             : base(name, age)
         {
-            Type = "Cabeça Vermelha";
+            Type = "Pato da Cabeça Vermelha";
         }
 
         public override void Swim()
