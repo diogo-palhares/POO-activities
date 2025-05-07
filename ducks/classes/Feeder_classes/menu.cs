@@ -22,12 +22,12 @@ namespace Patos
             int i = 0;
             while (i!=-1)
             {
-                i=i%_ducks.Count;
+                i = i%_ducks.Count;
                 Console.Clear();
+                Console.WriteLine("Escolha o seu Pato");
                 Console.WriteLine($"Pato {i + 1}");
                 _ducks[i].Display();
                 Console.WriteLine($"Habilidades:");
-
                 Type tipo = _ducks[i].GetType();
                 MethodInfo[] metodos = tipo.GetMethods(BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly);
                 foreach (var m in metodos)
@@ -35,7 +35,7 @@ namespace Patos
                     Console.WriteLine($"-{m.Name}");
                 }
 
-                Console.WriteLine("Anterior(1) Proximo(2) Escolher (3) Sair(4)");
+                Console.WriteLine("Sair(0) Anterior(1) Proximo(2) Escolher (3)");
                 string input = Console.ReadLine();
                 if(int.TryParse(input, out int opcao)){
                     switch(opcao){
@@ -47,8 +47,10 @@ namespace Patos
                             break;
                         case 3:
                             escolhido = _ducks[i];
+                            SkillMenu skills = new SkillMenu(escolhido);
+                            skills.Run();
                             break;
-                        case 4:
+                        case 0:
                             i=-1;
                             break;
                         default:
