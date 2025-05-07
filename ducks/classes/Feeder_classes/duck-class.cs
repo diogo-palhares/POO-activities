@@ -4,9 +4,9 @@ namespace Patos {
 
     public abstract class Duck {
 
-        protected string Name {get;set;}
-        protected int Age {get;set;}
-        protected string? Type {get;set;}
+        public string Name {get; set;}
+        public int Age {get; set;}
+        public string? Type {get; protected set;}
 
         public Duck(string name, int age){
             Name = name;

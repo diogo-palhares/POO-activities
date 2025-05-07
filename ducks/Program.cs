@@ -1,5 +1,6 @@
 ﻿using System;
-using Patos; 
+using System.Reflection;
+using Patos;
 
 namespace POOActivities
 {
@@ -33,6 +34,9 @@ namespace POOActivities
             myDuck4.Display();
             myDuck4.Quack();
             myDuck4.Swim();
+
+            Menu menu = new Menu();
+            menu.Run();
         }
     }
 }
