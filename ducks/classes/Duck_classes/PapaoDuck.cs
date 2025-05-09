@@ -2,9 +2,9 @@ using System;
 
 namespace Patos
 {
-    public class PatoPapao : Duck, IQuackable
+    public class PapaoDuck : Duck, IQuackable
     {
-        public PatoPapao(string name, int age) : base(name, age)
+        public PapaoDuck(string name, int age) : base(name, age)
         {
             Type = "Pato Papão";
         }
