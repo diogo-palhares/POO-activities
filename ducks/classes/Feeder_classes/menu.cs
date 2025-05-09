@@ -13,7 +13,8 @@ namespace Patos
             _ducks = new List<Duck>{
                 new MallardDuck("Ana Flavia", 29),
                 new RubberDuck("Ivo", 21),
-                new RedHeadDuck("Bernardo", 21)
+                new RedHeadDuck("Bernardo", 21),
+                new MathDuck("Pitágoras", 777),
             };
         }
 
