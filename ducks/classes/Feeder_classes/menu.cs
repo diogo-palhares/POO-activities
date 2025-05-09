@@ -15,6 +15,8 @@ namespace Patos
                 new RubberDuck("Ivo", 21),
                 new RedHeadDuck("Bernardo", 21),
                 new MathDuck("Pitágoras", 777),
+                new Pokepato("Pikachu", 15),
+                
             };
         }
 
@@ -64,7 +66,7 @@ namespace Patos
                 else{
                     Console.WriteLine("Insira um caractere valido");
                     Console.WriteLine("Precione qualquer tecla para continuar");
-                    Console.ReadKey();
+                    Console.ReadKey(); 
                 }
             }
         }
