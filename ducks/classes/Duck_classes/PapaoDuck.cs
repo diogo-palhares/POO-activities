@@ -11,12 +11,12 @@ namespace Patos
 
         public override void Swim()
         {
-            Console.WriteLine($"{Name} nada sorrateiramente pelas sombras...");
+            Console.WriteLine($"{Name} nada sorrateiramente pelas sombras.");
         }
 
         public void Quack()
         {
-            Console.WriteLine($"{Name} solta um quack grave e assustador... Quááááá...");
+            Console.WriteLine($"{Name} solta um quack grave e assustador... HAHAHAHHAHAAHHAHAHAHA...");
         }
 
         public void Rimar()
@@ -26,12 +26,12 @@ namespace Patos
 
         public void Zoar()
         {
-            Console.WriteLine($"{Name} grita: 'Você nada ou boia? Porque eu voo até a sua bolha!'");
+            Console.WriteLine($"{Name} grita: 'Pato que nada muito vira bolsa de madame!'");
         }
 
         public void Comer()
         {
-            Console.WriteLine($"{Name} devora um pão com pressa... e um programador de sobremesa!");
+            Console.WriteLine($"{Name} devora uma janta de 2kg com pressa... e um programador de sobremesa!");
         }
 
         public void Autodestruir()
