@@ -16,6 +16,7 @@ namespace Patos
                 new RedHeadDuck("Bernardo", 21),
                 new Pokepato("Pikachu", 15),
                 new MathDuck("Pitágoras", 345)
+                new PapaoDuck("Blatantspy", 74),
             };
         }
 
