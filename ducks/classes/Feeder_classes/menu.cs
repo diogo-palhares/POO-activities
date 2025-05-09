@@ -15,6 +15,7 @@ namespace Patos
                 new RubberDuck("Ivo", 21),
                 new RedHeadDuck("Bernardo", 21),
                 new MathDuck("Pitágoras", 345),
+                new PapaoDuck("Blatantspy", 74),
             };
         }
 
