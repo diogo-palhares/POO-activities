@@ -18,25 +18,40 @@ namespace Patos
         {
             Console.WriteLine($"{Name} está barulhando");
         }
-        public void Soma(int a, int b)
+        public void Soma()
         {
+            Console.WriteLine("Insira o primeiro numero");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o segundo numero");
+            double b = double.Parse(Console.ReadLine());
             Console.WriteLine($"A Soma de {a} + {b} é: {a + b}");
         }
-        public void Subtracao(int a, int b)
+        public void Subtracao()
         {
+            Console.WriteLine("Insira o primeiro numero");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o segundo numero");
+            double b = double.Parse(Console.ReadLine());
             Console.WriteLine($"A Subtracao de {a} - {b} é: {a - b}");
         }
-        public void Multiplicacao(int a, int b)
+        public void Multiplicacao()
         {
+            Console.WriteLine("Insira o primeiro numero");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o segundo numero");
+            double b = double.Parse(Console.ReadLine());
             Console.WriteLine($"A Multiplicacao de {a} * {b} é: {a * b}");
         }
-        public void Divisao(int a, int b)
+        public void Divisao()
         {
-            Console.WriteLine($"A Divisao de {a} / {b} é: {a / b}");
+            Console.WriteLine("Insira o primeiro numero");
+            double a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o segundo numero");
+            double b = double.Parse(Console.ReadLine());
+            if (a == 0 && b == 0)
+                Console.WriteLine("Nao da pra dividir 0 por 0");
+            else
+                Console.WriteLine($"A Divisao de {a} / {b} é: {a / b}");
         }
-
-
     }
-
-
 }
