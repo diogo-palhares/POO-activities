@@ -1,0 +1,16 @@
+﻿using System;
+using System.Windows.Forms;
+
+namespace POO_activities
+{
+    static class Program
+    {
+        [STAThread]
+        static void Main()
+        {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FormTela()); // <- aqui roda sua interface!
+        }
+    }
+}
