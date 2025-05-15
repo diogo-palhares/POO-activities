@@ -13,7 +13,7 @@ namespace Patos {
             Age = age;
         }
 
-        public abstract void Swim();
+        public abstract string Swim();
 
         public void Display(){
             Console.WriteLine($"Nome: {Name}");
