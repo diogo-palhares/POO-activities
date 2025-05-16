@@ -16,7 +16,7 @@ namespace Patos
 
         public string Quack()
         {
-            return $"{Name} solta um quack grave e assustador... HAHAHAHHAHAAHHAHAHAHA...";
+            return $"{Name} solta um quack grave e assustador... \nHAHAHAHHAHAAHHAHAHAHA...";
         }
 
         public string Rimar()
@@ -31,12 +31,12 @@ namespace Patos
 
         public string Comer()
         {
-            return $"{Name} devora uma janta de 2kg com pressa... e um programador de sobremesa!";
+            return $"{Name} devora uma janta de 2kg com pressa... \ne um programador de sobremesa!";
         }
 
         public string Autodestruir()
         {
-            return $"{Name} ativa a autodestruição em 3... 2... 1... *BOOM* (Mas ele sempre volta)";
+            return $"{Name} ativa a autodestruição em 3... 2... 1... \n*BOOM* (Mas ele sempre volta)";
         }
     }
 }
