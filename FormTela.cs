@@ -49,7 +49,6 @@ namespace POO_activities
             {
                 var duck = menu.GetDuck(duckIndex);
 
-                // 🖼️ Exibir imagem do pato (com caminho absoluto)
                 string tipoPato = duck.GetType().Name;
                 string caminhoImagem = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Imagens", tipoPato + ".png");
 
@@ -62,7 +61,6 @@ namespace POO_activities
                     pictureBoxPato.Image = null;
                 }
 
-                // ⚙️ Executar o método
                 var metodo = duck.GetType().GetMethod(metodoNome);
                 if (metodo != null)
                 {

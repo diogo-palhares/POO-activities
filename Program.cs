@@ -10,7 +10,7 @@ namespace POO_activities
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormTela()); // <- aqui roda sua interface!
+            Application.Run(new FormTela()); 
         }
     }
 }
