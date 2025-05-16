@@ -75,10 +75,9 @@
             // 
             // pictureBoxPato
             // 
-            pictureBoxPato.BorderStyle = BorderStyle.FixedSingle;
-            pictureBoxPato.Location = new Point(414, 80);
+            pictureBoxPato.Location = new Point(516, 58);
             pictureBoxPato.Name = "pictureBoxPato";
-            pictureBoxPato.Size = new Size(314, 246);
+            pictureBoxPato.Size = new Size(251, 268);
             pictureBoxPato.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxPato.TabIndex = 4;
             pictureBoxPato.TabStop = false;
