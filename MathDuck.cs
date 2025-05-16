@@ -19,24 +19,10 @@ namespace Patos
             return $"{Name} está barulhando";
         }
 
-        public string Soma()
+        public string Compensa()
         {
-            return "Insira o primeiro numero";
+            return "Pitagoras calculou e percebeu que não compensa";
         }
 
-        public string Subtracao()
-        {
-            return "Insira o primeiro numero";
-        }
-
-        public string Multiplicacao()
-        {
-            return "Insira o primeiro numero";
-        }
-
-        public string Divisao()
-        {
-            return "Insira o primeiro numero";
-        }
     }
 }
