@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using System.Drawing;
 using System.IO;
 using Patos;
+using System.Drawing.Drawing2D;
 
 namespace POO_activities
 {
@@ -15,6 +16,22 @@ namespace POO_activities
         {
             InitializeComponent();
             menu = new Menu();
+        }
+
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            Rectangle rect = this.ClientRectangle;
+
+            using (LinearGradientBrush brush = new LinearGradientBrush(
+                rect,
+                Color.LightGreen,
+                Color.DarkGreen,
+                LinearGradientMode.Vertical))
+            {
+                e.Graphics.FillRectangle(brush, rect);
+            }
+
+            base.OnPaint(e);
         }
 
         private void FormTela_Load(object sender, EventArgs e)
@@ -68,6 +85,16 @@ namespace POO_activities
                     lblResultado.Text = resultado?.ToString() ?? "Executado!";
                 }
             }
+        }
+
+        private void pictureBoxPato_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblResultado_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
