@@ -35,21 +35,19 @@
             lblResultado = new Label();
             pictureBoxPato = new PictureBox();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPato).BeginInit();
             SuspendLayout();
             // 
             // comboBoxPatos
             // 
             comboBoxPatos.BackColor = Color.LightGreen;
-            comboBoxPatos.FlatStyle = FlatStyle.System;
             comboBoxPatos.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboBoxPatos.ForeColor = SystemColors.ActiveCaptionText;
-            comboBoxPatos.ImeMode = ImeMode.Off;
+            comboBoxPatos.ImeMode = ImeMode.Disable;
             comboBoxPatos.Location = new Point(243, 98);
             comboBoxPatos.Margin = new Padding(3, 4, 3, 4);
             comboBoxPatos.Name = "comboBoxPatos";
-            comboBoxPatos.Size = new Size(155, 28);
+            comboBoxPatos.Size = new Size(155, 25);
             comboBoxPatos.TabIndex = 0;
             comboBoxPatos.SelectedIndexChanged += comboBoxPatos_SelectedIndexChanged;
             // 
@@ -60,10 +58,11 @@
             listBoxMetodos.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             listBoxMetodos.ForeColor = SystemColors.ActiveCaptionText;
             listBoxMetodos.FormattingEnabled = true;
+            listBoxMetodos.ItemHeight = 17;
             listBoxMetodos.Location = new Point(244, 143);
             listBoxMetodos.Margin = new Padding(3, 4, 3, 4);
             listBoxMetodos.Name = "listBoxMetodos";
-            listBoxMetodos.Size = new Size(154, 120);
+            listBoxMetodos.Size = new Size(154, 119);
             listBoxMetodos.TabIndex = 1;
             // 
             // btnExecutar
@@ -92,7 +91,7 @@
             lblResultado.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblResultado.Location = new Point(244, 379);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(0, 20);
+            lblResultado.Size = new Size(0, 17);
             lblResultado.TabIndex = 3;
             lblResultado.Click += lblResultado_Click;
             // 
@@ -109,22 +108,13 @@
             pictureBoxPato.TabStop = false;
             pictureBoxPato.Click += pictureBoxPato_Click;
             // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(239, 377);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 5;
-            // 
             // FormTela
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(944, 600);
-            Controls.Add(comboBox1);
             Controls.Add(pictureBoxPato);
             Controls.Add(lblResultado);
             Controls.Add(btnExecutar);
@@ -152,6 +142,5 @@
         private Label lblResultado;
         private PictureBox pictureBoxPato;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private ComboBox comboBox1;
     }
 }
