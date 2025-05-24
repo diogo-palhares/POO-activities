@@ -46,7 +46,7 @@ MathDuck: Um pato matemático (com comportamento específico no contexto da apli
 
 Pokepato: Um pato inspirado no universo Pokémon.
 
-Interface Gráfica:
+GUI:
 
 FormTela: Janela principal que permite ao usuário selecionar os diferentes tipos de pato e executar seus comportamentos (voar, nadar e grasnar) de forma visual.
 
