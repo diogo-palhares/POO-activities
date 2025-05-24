@@ -9,6 +9,7 @@
 # Arquitetura do Projeto
 
 Este projeto foi desenvolvido como atividade de aprendizagem de Programação Orientada a Objetos (POO). O desenvolvimento começou com uma aplicação de console, onde os conceitos de herança, polimorfismo, interfaces e encapsulamento foram aplicados. Posteriormente, evoluímos o projeto para uma aplicação com interface gráfica usando Windows Forms, tornando a interação mais intuitiva e amigável.
+
 Abstração:
 O conceito de pato foi abstraído na classe base Duck, que define os comportamentos gerais de qualquer pato, como Display(), Swim() e métodos para voar e grasnar.
 
