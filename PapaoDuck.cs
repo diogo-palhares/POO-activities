@@ -11,32 +11,32 @@ namespace Patos
 
         public override string Swim()
         {
-            return $"{Name} nada sorrateiramente pelas sombras.";
+            return $"{Name} nada sorrateiramente\n pelas sombras.";
         }
 
         public string Quack()
         {
-            return $"{Name} solta um quack grave e assustador... \nHAHAHAHHAHAAHHAHAHAHA...";
+            return $"{Name} solta um quack\n grave e assustador... HAHAHAHHAHAAHHAHAHAHA...";
         }
 
         public string Rimar()
         {
-            return $"{Name} diz: 'Eu sou o Pato Papão, espalho o terror e confusão!'";
+            return $"{Name} diz: 'Eu sou o Pato Papão,\n espalho o terror e confusão!'";
         }
 
         public string Zoar()
         {
-            return $"{Name} grita: 'Pato que nada muito vira bolsa de madame!'";
+            return $"{Name} grita: 'Pato que nada muito\n vira bolsa de madame!'";
         }
 
         public string Comer()
         {
-            return $"{Name} devora uma janta de 2kg com pressa... \ne um programador de sobremesa!";
+            return $"{Name} devora uma janta de 2kg \ncom pressa... e um programador de sobremesa!";
         }
 
         public string Autodestruir()
         {
-            return $"{Name} ativa a autodestruição em 3... 2... 1... \n*BOOM* (Mas ele sempre volta)";
+            return $"{Name} ativa a autodestruição \nem 3... 2... 1... *BOOM* (Mas ele sempre volta)";
         }
     }
 }

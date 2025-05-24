@@ -21,7 +21,7 @@ namespace Patos
 
         public string Compensa()
         {
-            return "Pitagoras calculou e percebeu que não compensa";
+            return "Pitagoras calculou e \n percebeu que não compensa";
         }
 
     }

@@ -35,19 +35,23 @@
             lblResultado = new Label();
             pictureBoxPato = new PictureBox();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBoxPato).BeginInit();
             SuspendLayout();
             // 
             // comboBoxPatos
             // 
             comboBoxPatos.BackColor = Color.LightGreen;
+            comboBoxPatos.FlatStyle = FlatStyle.Flat;
             comboBoxPatos.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             comboBoxPatos.ForeColor = SystemColors.ActiveCaptionText;
             comboBoxPatos.ImeMode = ImeMode.Disable;
-            comboBoxPatos.Location = new Point(243, 98);
+            comboBoxPatos.Location = new Point(12, 98);
             comboBoxPatos.Margin = new Padding(3, 4, 3, 4);
             comboBoxPatos.Name = "comboBoxPatos";
-            comboBoxPatos.Size = new Size(155, 25);
+            comboBoxPatos.Size = new Size(494, 25);
             comboBoxPatos.TabIndex = 0;
             comboBoxPatos.SelectedIndexChanged += comboBoxPatos_SelectedIndexChanged;
             // 
@@ -59,10 +63,10 @@
             listBoxMetodos.ForeColor = SystemColors.ActiveCaptionText;
             listBoxMetodos.FormattingEnabled = true;
             listBoxMetodos.ItemHeight = 17;
-            listBoxMetodos.Location = new Point(244, 143);
+            listBoxMetodos.Location = new Point(12, 178);
             listBoxMetodos.Margin = new Padding(3, 4, 3, 4);
             listBoxMetodos.Name = "listBoxMetodos";
-            listBoxMetodos.Size = new Size(154, 119);
+            listBoxMetodos.Size = new Size(494, 85);
             listBoxMetodos.TabIndex = 1;
             // 
             // btnExecutar
@@ -73,13 +77,13 @@
             btnExecutar.BackgroundImageLayout = ImageLayout.Center;
             btnExecutar.FlatStyle = FlatStyle.Popup;
             btnExecutar.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnExecutar.Location = new Point(271, 286);
+            btnExecutar.Location = new Point(41, 282);
             btnExecutar.Margin = new Padding(3, 4, 3, 4);
             btnExecutar.Name = "btnExecutar";
             btnExecutar.RightToLeft = RightToLeft.No;
-            btnExecutar.Size = new Size(97, 31);
+            btnExecutar.Size = new Size(416, 47);
             btnExecutar.TabIndex = 2;
-            btnExecutar.Text = "Executar";
+            btnExecutar.Text = "JOGAR";
             btnExecutar.TextImageRelation = TextImageRelation.ImageAboveText;
             btnExecutar.UseVisualStyleBackColor = false;
             btnExecutar.Click += btnExecutar_Click;
@@ -88,10 +92,10 @@
             // 
             lblResultado.AutoSize = true;
             lblResultado.BackColor = Color.Transparent;
-            lblResultado.Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblResultado.Location = new Point(244, 379);
+            lblResultado.Font = new Font("Comic Sans MS", 20F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            lblResultado.Location = new Point(41, 370);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(0, 17);
+            lblResultado.Size = new Size(0, 38);
             lblResultado.TabIndex = 3;
             lblResultado.Click += lblResultado_Click;
             // 
@@ -99,7 +103,7 @@
             // 
             pictureBoxPato.BackColor = Color.Transparent;
             pictureBoxPato.BackgroundImageLayout = ImageLayout.Center;
-            pictureBoxPato.Location = new Point(512, 98);
+            pictureBoxPato.Location = new Point(560, 98);
             pictureBoxPato.Margin = new Padding(3, 4, 3, 4);
             pictureBoxPato.Name = "pictureBoxPato";
             pictureBoxPato.Size = new Size(345, 301);
@@ -108,6 +112,42 @@
             pictureBoxPato.TabStop = false;
             pictureBoxPato.Click += pictureBoxPato_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Comic Sans MS", 20F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(12, 45);
+            label1.Name = "label1";
+            label1.Size = new Size(231, 38);
+            label1.TabIndex = 5;
+            label1.Text = "Escolha seu pato!";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Comic Sans MS", 20F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(12, 127);
+            label2.Name = "label2";
+            label2.Size = new Size(375, 38);
+            label2.TabIndex = 6;
+            label2.Text = "O que seu patinho vai fazer?";
+            label2.Click += label2_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Comic Sans MS", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(370, 572);
+            label3.Name = "label3";
+            label3.Size = new Size(207, 19);
+            label3.TabIndex = 7;
+            label3.Text = "Copyright all rights reserved©";
+            label3.Click += label3_Click;
+            // 
             // FormTela
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
@@ -115,14 +155,16 @@
             BackColor = Color.Lavender;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(944, 600);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(pictureBoxPato);
             Controls.Add(lblResultado);
             Controls.Add(btnExecutar);
             Controls.Add(listBoxMetodos);
             Controls.Add(comboBoxPatos);
-            DoubleBuffered = true;
             Font = new Font("Comic Sans MS", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormTela";
@@ -142,5 +184,8 @@
         private Label lblResultado;
         private PictureBox pictureBoxPato;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }
