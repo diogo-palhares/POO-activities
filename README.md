@@ -3,7 +3,7 @@
 
 `DISCIPLINA: Programação Orientada por Objetos`
 
-`SEMESTRE: 1º`
+`SEMESTRE: 3º`
 
 
 # Arquitetura do Projeto
