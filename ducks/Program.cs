@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Reflection;
-using Patos;
+using System.Windows.Forms;
 
-namespace POOActivities
+namespace POO_activities
 {
-    class Program
+    static class Program
     {
-        static void Main(string[] args)
+        [STAThread]
+        static void Main()
         {
-            Menu menu = new Menu();
-            menu.Run();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new FormTela()); 
         }
     }
 }

@@ -1,0 +1,94 @@
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\Imagens\MallardDuck.png
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\Imagens\MathDuck.png
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\Imagens\PapaoDuck.png
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\Imagens\Pokepato.png
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\Imagens\RedHeadDuck.png
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\Imagens\RubberDuck.png
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\POO-activities.exe
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\POO-activities.deps.json
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\POO-activities.runtimeconfig.json
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\POO-activities.dll
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\bin\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO_activities.FormTela.resources
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.csproj.GenerateResource.cache
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.AssemblyInfoInputs.cache
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.AssemblyInfo.cs
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.csproj.CoreCompileInputs.cache
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.sourcelink.json
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.dll
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\refint\POO-activities.dll
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO-activities.genruntimeconfig.cache
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\ref\POO-activities.dll
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\Imagens\MallardDuck.png
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\Imagens\MathDuck.png
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\Imagens\PapaoDuck.png
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\Imagens\Pokepato.png
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\Imagens\RedHeadDuck.png
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\Imagens\RubberDuck.png
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\POO-activities.exe
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\POO-activities.deps.json
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\POO-activities.runtimeconfig.json
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\POO-activities.dll
+C:\Users\t001462\Source\Repos\POO-activities\bin\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO_activities.FormTela.resources
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.csproj.GenerateResource.cache
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.AssemblyInfoInputs.cache
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.AssemblyInfo.cs
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.csproj.CoreCompileInputs.cache
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.sourcelink.json
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.dll
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\refint\POO-activities.dll
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\POO-activities.genruntimeconfig.cache
+C:\Users\t001462\Source\Repos\POO-activities\obj\Debug\net8.0-windows\ref\POO-activities.dll
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\Imagens\MallardDuck.png
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\Imagens\MathDuck.png
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\Imagens\PapaoDuck.png
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\Imagens\Pokepato.png
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\Imagens\RedHeadDuck.png
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\Imagens\RubberDuck.png
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\POO-activities.exe
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\POO-activities.deps.json
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\POO-activities.runtimeconfig.json
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\POO-activities.dll
+C:\Users\t001521\source\repos\POO-activities\POO-activities\bin\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO_activities.FormTela.resources
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.csproj.GenerateResource.cache
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.AssemblyInfoInputs.cache
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.AssemblyInfo.cs
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.csproj.CoreCompileInputs.cache
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.sourcelink.json
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.dll
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\refint\POO-activities.dll
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\POO-activities.genruntimeconfig.cache
+C:\Users\t001521\source\repos\POO-activities\POO-activities\obj\Debug\net8.0-windows\ref\POO-activities.dll
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\Imagens\MallardDuck.png
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\Imagens\MathDuck.png
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\Imagens\PapaoDuck.png
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\Imagens\Pokepato.png
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\Imagens\RedHeadDuck.png
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\Imagens\RubberDuck.png
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\POO-activities.exe
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\POO-activities.deps.json
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\POO-activities.runtimeconfig.json
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\POO-activities.dll
+C:\Users\anage\source\repos\Patos Forms\pato correto\bin\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO_activities.FormTela.resources
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO_activities.Properties.Resources.resources
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.csproj.GenerateResource.cache
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.AssemblyInfoInputs.cache
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.AssemblyInfo.cs
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.csproj.CoreCompileInputs.cache
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.sourcelink.json
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.dll
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\refint\POO-activities.dll
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.pdb
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\POO-activities.genruntimeconfig.cache
+C:\Users\anage\source\repos\Patos Forms\pato correto\obj\Debug\net8.0-windows\ref\POO-activities.dll
+C:\Users\bgmar\OneDrive\Desktop\POO-activitiesN\Teste\POO-activities\obj\Debug\net8.0-windows\POO_activities.Properties.Resources.resources
