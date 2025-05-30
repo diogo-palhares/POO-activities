@@ -13,6 +13,7 @@ namespace Exep
                 Console.WriteLine("1 - Verificar número primo");
                 Console.WriteLine("2 - Calculadora básica");
                 Console.WriteLine("3 - Preencher vetor");
+                Console.WriteLine("4 - Somar até exceder 100");
                 Console.WriteLine("0 - Sair");
                 var escolha = Console.ReadLine();
 
@@ -27,6 +28,9 @@ namespace Exep
                         break;
                     case "3":
                         ArrayFiller.Run();
+                        break;
+                    case "4":
+                        Sum.Run();
                         break;
                     case "0":
                         Console.WriteLine("Encerrando o programa...");
