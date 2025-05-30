@@ -1,0 +1,15 @@
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.AssemblyInfoInputs.cache
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.AssemblyInfo.cs
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.csproj.CoreCompileInputs.cache
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.sourcelink.json
+/Users/dpalhares/Desktop/poo/POO-activities/exception/bin/Debug/net9.0/exception
+/Users/dpalhares/Desktop/poo/POO-activities/exception/bin/Debug/net9.0/exception.deps.json
+/Users/dpalhares/Desktop/poo/POO-activities/exception/bin/Debug/net9.0/exception.runtimeconfig.json
+/Users/dpalhares/Desktop/poo/POO-activities/exception/bin/Debug/net9.0/exception.dll
+/Users/dpalhares/Desktop/poo/POO-activities/exception/bin/Debug/net9.0/exception.pdb
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.dll
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/refint/exception.dll
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.pdb
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/exception.genruntimeconfig.cache
+/Users/dpalhares/Desktop/poo/POO-activities/exception/obj/Debug/net9.0/ref/exception.dll
