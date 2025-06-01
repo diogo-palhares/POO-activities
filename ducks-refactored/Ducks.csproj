@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net472</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Ducks</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Duck.cs" />
+    <Compile Include="MallardDuck.cs" />
+    <Compile Include="PapaoDuck.cs" />
+    <Compile Include="Pokepato.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="FormTela.cs" />
+    <Compile Include="Behaviors\IFlyBehavior.cs" />
+    <Compile Include="Behaviors\FlyFast.cs" />
+    <Compile Include="Behaviors\FlySlow.cs" />
+    <Compile Include="Behaviors\GlideBehavior.cs" />
+    <Compile Include="Behaviors\IQuackBehavior.cs" />
+    <Compile Include="Behaviors\QuackLoud.cs" />
+    <Compile Include="Behaviors\QuackSoft.cs" />
+  </ItemGroup>
+</Project>
