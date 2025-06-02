@@ -1,0 +1,11 @@
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\bin\Debug\net472\Ducks.exe.config
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\bin\Debug\net472\Ducks.exe
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\bin\Debug\net472\Ducks.pdb
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.csproj.AssemblyReference.cache
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.GeneratedMSBuildEditorConfig.editorconfig
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.AssemblyInfoInputs.cache
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.AssemblyInfo.cs
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.csproj.CoreCompileInputs.cache
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.sourcelink.json
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.exe
+D:\programacao\trabalhos\poo\atividades\POO-activities\ducks-refactored\obj\Debug\net472\Ducks.pdb
