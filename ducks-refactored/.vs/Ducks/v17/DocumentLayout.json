@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored-v2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C12F41DB-A245-0D23-FDFD-C059DF799221}|Ducks.csproj|d:\\programacao\\trabalhos\\poo\\atividades\\poo-activities\\ducks-refactored-v2\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C12F41DB-A245-0D23-FDFD-C059DF799221}|Ducks.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored-v2\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored-v2\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-02T17:19:51.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+.DS_Store
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.vsidx
+*.db
+*.pdb
+*.tmp

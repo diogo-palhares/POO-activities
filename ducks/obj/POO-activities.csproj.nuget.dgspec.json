@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bgmar\\OneDrive\\Desktop\\POO-activitiesN\\Teste\\POO-activities\\POO-activities.csproj": {}
+    "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks\\POO-activities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bgmar\\OneDrive\\Desktop\\POO-activitiesN\\Teste\\POO-activities\\POO-activities.csproj": {
+    "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks\\POO-activities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bgmar\\OneDrive\\Desktop\\POO-activitiesN\\Teste\\POO-activities\\POO-activities.csproj",
+        "projectUniqueName": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks\\POO-activities.csproj",
         "projectName": "POO-activities",
-        "projectPath": "C:\\Users\\bgmar\\OneDrive\\Desktop\\POO-activitiesN\\Teste\\POO-activities\\POO-activities.csproj",
-        "packagesPath": "C:\\Users\\bgmar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bgmar\\OneDrive\\Desktop\\POO-activitiesN\\Teste\\POO-activities\\obj\\",
+        "projectPath": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks\\POO-activities.csproj",
+        "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
+        "outputPath": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bgmar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\diogo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
