@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ducks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32f1e5187c5c472bae18317dec33456343eb8ecf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b8019dde20d3142b5e9f651dc3e3e8fc30ead4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ducks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ducks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

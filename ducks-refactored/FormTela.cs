@@ -1,69 +1,126 @@
 using System;
-using System.Drawing;
 using System.Windows.Forms;
-using Ducks.Behaviors;
 
 namespace Ducks
 {
     public class FormTela : Form
     {
-        private Button btnMallard;
-        private Button btnPapao;
-        private Button btnPoke;
-        private Button btnTrocarVoo;
+        private ComboBox comboDucks;
+        private Button btnSelectDuck;
+        private Button btnDisplay;
+        private Button btnFly;
+        private Button btnQuack;
+        private Label lblSelect;
+        private Duck selectedDuck;
 
         public FormTela()
         {
-            Text = "Simulador de Patos";
-            Size = new Size(400, 300);
-
-            btnMallard = new Button() { Text = "Criar Mallard Duck", Location = new Point(50, 30), Size = new Size(150, 30) };
-            btnPapao = new Button() { Text = "Criar Pato Papão", Location = new Point(50, 80), Size = new Size(150, 30) };
-            btnPoke = new Button() { Text = "Criar PokePato", Location = new Point(50, 130), Size = new Size(150, 30) };
-            btnTrocarVoo = new Button() { Text = "Trocar Voo Mallard", Location = new Point(50, 180), Size = new Size(150, 30) };
-
-            btnMallard.Click += btnCriarMallard_Click;
-            btnPapao.Click += btnCriarPapao_Click;
-            btnPoke.Click += btnCriarPoke_Click;
-            btnTrocarVoo.Click += btnTrocarVooMallard_Click;
-
-            Controls.Add(btnMallard);
-            Controls.Add(btnPapao);
-            Controls.Add(btnPoke);
-            Controls.Add(btnTrocarVoo);
+            InitializeComponent();
         }
 
-        private void btnCriarMallard_Click(object sender, EventArgs e)
+        private void InitializeComponent()
         {
-            Duck pato = new MallardDuck();
-            pato.Display();
-            pato.PerformFly();
-            pato.PerformQuack();
+            this.Text = "Simulador de Patos";
+            this.Width = 400;
+            this.Height = 200;
+
+            lblSelect = new Label();
+            lblSelect.Text = "Escolha um tipo de pato:";
+            lblSelect.Top = 20;
+            lblSelect.Left = 20;
+            lblSelect.Width = 200;
+
+            comboDucks = new ComboBox();
+            comboDucks.Items.AddRange(new string[] { "Mallard", "Papao", "Poke" });
+            comboDucks.Top = 50;
+            comboDucks.Left = 20;
+            comboDucks.Width = 120;
+            comboDucks.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            btnSelectDuck = new Button();
+            btnSelectDuck.Text = "Selecionar Pato";
+            btnSelectDuck.Top = 50;
+            btnSelectDuck.Left = 160;
+            btnSelectDuck.Click += BtnSelectDuck_Click;
+
+            btnDisplay = new Button();
+            btnDisplay.Text = "Exibir Pato";
+            btnDisplay.Top = 90;
+            btnDisplay.Left = 20;
+            btnDisplay.Enabled = false;
+            btnDisplay.Click += BtnDisplay_Click;
+
+            btnFly = new Button();
+            btnFly.Text = "Voar";
+            btnFly.Top = 90;
+            btnFly.Left = 120;
+            btnFly.Enabled = false;
+            btnFly.Click += BtnFly_Click;
+
+            btnQuack = new Button();
+            btnQuack.Text = "Grasnar";
+            btnQuack.Top = 90;
+            btnQuack.Left = 200;
+            btnQuack.Enabled = false;
+            btnQuack.Click += BtnQuack_Click;
+
+            this.Controls.Add(lblSelect);
+            this.Controls.Add(comboDucks);
+            this.Controls.Add(btnSelectDuck);
+            this.Controls.Add(btnDisplay);
+            this.Controls.Add(btnFly);
+            this.Controls.Add(btnQuack);
         }
 
-        private void btnCriarPapao_Click(object sender, EventArgs e)
+        private void BtnSelectDuck_Click(object sender, EventArgs e)
         {
-            Duck pato = new PapaoDuck();
-            pato.Display();
-            pato.PerformFly();
-            pato.PerformQuack();
+            string choice = comboDucks.SelectedItem as string;
+            if (string.IsNullOrEmpty(choice))
+            {
+                MessageBox.Show("Por favor, selecione um tipo de pato.");
+                return;
+            }
+
+            // Instanciar o pato de acordo com a escolha
+            switch (choice)
+            {
+                case "Mallard":
+                    selectedDuck = new MallardDuck();
+                    break;
+                case "Papao":
+                    selectedDuck = new PapaoDuck();
+                    break;
+                case "Poke":
+                    selectedDuck = new Pokepato();
+                    break;
+                default:
+                    selectedDuck = null;
+                    break;
+            }
+
+            if (selectedDuck != null)
+            {
+                MessageBox.Show($"Pato {selectedDuck.Name} selecionado.");
+                // Habilitar botões de ação
+                btnDisplay.Enabled = true;
+                btnFly.Enabled = true;
+                btnQuack.Enabled = true;
+            }
         }
 
-        private void btnCriarPoke_Click(object sender, EventArgs e)
+        private void BtnDisplay_Click(object sender, EventArgs e)
         {
-            Duck pato = new Pokepato();
-            pato.Display();
-            pato.PerformFly();
-            pato.PerformQuack();
+            selectedDuck?.Display();
         }
 
-        private void btnTrocarVooMallard_Click(object sender, EventArgs e)
+        private void BtnFly_Click(object sender, EventArgs e)
         {
-            MallardDuck mallard = new MallardDuck();
-            mallard.Display();
-            mallard.PerformFly();
-            mallard.SetFlyBehavior(new GlideBehavior());
-            mallard.PerformFly();
+            selectedDuck?.PerformFly();
+        }
+
+        private void BtnQuack_Click(object sender, EventArgs e)
+        {
+            selectedDuck?.PerformQuack();
         }
     }
 }

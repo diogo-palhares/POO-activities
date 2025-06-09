@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored\\Ducks.csproj",
+      "projectUniqueName": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored-v2\\Ducks.csproj",
       "projectName": "Ducks",
-      "projectPath": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored\\Ducks.csproj",
+      "projectPath": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored-v2\\Ducks.csproj",
       "packagesPath": "C:\\Users\\diogo\\.nuget\\packages\\",
-      "outputPath": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored\\obj\\",
+      "outputPath": "D:\\programacao\\trabalhos\\poo\\atividades\\POO-activities\\ducks-refactored-v2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
